@@ -11,5 +11,10 @@ const Header = styled('h1')({
   display: 'flex',
   justifyContent: 'center',
 });
+const Description = styled('p')({
+  fontSize: '20px',
+  letterSpacing: '0.3px',
+  margin: '30px 220px',
+});
 
-export { Box, Header }
+export { Box, Header,Description }
